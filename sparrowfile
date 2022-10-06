@@ -4,4 +4,6 @@ git-scm "https://github.com/melezhik/app-rak-test.git", %(
   to => "test"
 );
 
-tom rak-search;
+bash "tom rak-search", %(
+  cwd => "{$*CWD}/test"
+);
