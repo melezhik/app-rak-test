@@ -8,5 +8,5 @@ projects:
           docker: alpine
           #bootstrap: true
           no_sudo: true
-
-        action: rak-search
+        action: rak-search 
+        options: --dump_task
