@@ -11,8 +11,8 @@ rak --version
 
 ls -l
 
-cat foo.txt
+cat foo.txt 
 
-rak foo </dev/null
+rak foo .
 
 echo OK
