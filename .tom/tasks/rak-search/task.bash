@@ -13,7 +13,7 @@ ls -l
 
 cat foo.txt
 
-rak foo --output-file=results.txt
+rak foo --output-file=results.txt --human
 
 cat results.txt
 
