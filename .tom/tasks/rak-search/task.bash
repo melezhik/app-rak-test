@@ -5,7 +5,8 @@ zef install App::Rak --/test --force-install
 
 echo foo > foo.txt
 
-which rak
+#which rak
+
 rak --version
 rak foo
 
