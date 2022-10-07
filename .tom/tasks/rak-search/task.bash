@@ -13,6 +13,8 @@ ls -l
 
 cat foo.txt 
 
-rak foo .
+rak foo > out.txt
+
+cat out.txt
 
 echo OK
