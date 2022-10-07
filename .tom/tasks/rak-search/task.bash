@@ -13,7 +13,7 @@ ls -l
 
 cat foo.txt
 
-rak foo --output-file=results.txt 2>/dev/null
+echo | rak foo
 
 cat results.txt
 
