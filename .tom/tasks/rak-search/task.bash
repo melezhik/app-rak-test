@@ -13,8 +13,6 @@ ls -l
 
 cat foo.txt
 
-echo | rak foo
-
-cat results.txt
+rak foo </dev/null
 
 echo OK
