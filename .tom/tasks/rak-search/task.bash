@@ -13,8 +13,8 @@ ls -l
 
 cat foo.txt
 
-RAK_PAGER='cat -n' rak foo
+rak foo --output-file=results.txt
 
-#rak foo --/human
+cat results.txt
 
 echo OK
