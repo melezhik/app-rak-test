@@ -8,5 +8,7 @@ echo foo > foo.txt
 #which rak
 
 rak --version
-rak foo
 
+#rak foo
+
+echo OK

@@ -6,7 +6,7 @@ projects:
     hosts:
       -
         sparrowdo:
-          docker: alpine
+          docker: debian
           #bootstrap: true
           no_sudo: true
         action: rak-search 
