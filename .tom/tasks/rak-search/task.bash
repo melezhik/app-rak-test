@@ -13,7 +13,7 @@ ls -l
 
 cat foo.txt 
 
-rak foo > out.txt
+rak foo > out.txt &
 
 cat out.txt
 
