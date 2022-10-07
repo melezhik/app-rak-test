@@ -13,6 +13,8 @@ ls -l
 
 cat foo.txt
 
-rak foo --/human
+RAK_PAGER='cat -n' rak foo
+
+#rak foo --/human
 
 echo OK
