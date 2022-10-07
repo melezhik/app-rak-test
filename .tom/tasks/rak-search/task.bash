@@ -13,6 +13,6 @@ ls -l
 
 cat foo.txt
 
-echo foo | rak foo
+rak foo --/human
 
 echo OK
