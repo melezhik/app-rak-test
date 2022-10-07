@@ -2,6 +2,7 @@ projects:
   app-rak-test:
     title: app rak test
     path: https://github.com/melezhik/app-rak-test.git
+    options: --dump_task
     hosts:
       -
         sparrowdo:
@@ -9,4 +10,3 @@ projects:
           #bootstrap: true
           no_sudo: true
         action: rak-search 
-        options: --dump_task
