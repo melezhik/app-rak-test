@@ -1,0 +1,10 @@
+projects:
+  app-rak-test:
+    title: app rak test
+    hosts:
+      -
+        sparrowdo:
+          docker: alpine
+          bootstrap: true
+          no_sudo: true
+
