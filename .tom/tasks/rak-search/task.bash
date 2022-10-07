@@ -10,8 +10,9 @@ echo foo > foo.txt
 rak --version
 
 ls -l
+
 cat foo.txt
 
-rak foo --/highlight 2>&1
+echo foo | rak foo
 
 echo OK
