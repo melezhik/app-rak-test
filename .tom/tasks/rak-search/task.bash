@@ -1,7 +1,7 @@
 set -e
 
-zef install JSON::Fast --/test --force-install
-zef install App::Rak --/test --force-install
+zef install JSON::Fast --/test --force-install --install-to=home
+zef install App::Rak --/test --force-install --install-to=home
 
 echo foo > foo.txt
 
