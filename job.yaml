@@ -1,10 +1,12 @@
 projects:
   app-rak-test:
     title: app rak test
+    path: https://github.com/melezhik/app-rak-test.git
     hosts:
       -
         sparrowdo:
           docker: alpine
-          bootstrap: true
+          #bootstrap: true
           no_sudo: true
 
+        action: rak-search
