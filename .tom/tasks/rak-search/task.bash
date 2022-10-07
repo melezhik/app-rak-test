@@ -13,8 +13,6 @@ ls -l
 
 cat foo.txt 
 
-rak foo > out.txt 2>&1 &
-
-cat out.txt
+rak '/ << foo >> /'
 
 echo OK
